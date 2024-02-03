@@ -1,0 +1,28 @@
+{
+  "name": "tovoice",
+  "version": "1.0.0",
+  "description": "a library for converting text to voice",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "develop":"npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mohammed-akash/tovoice.git"
+  },
+  "keywords": [
+    "tovoice"
+  ],
+  "author": "mohammed akash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammed-akash/tovoice/issues"
+  },
+  "homepage": "https://github.com/mohammed-akash/tovoice#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": ["lib/**/*"]
+}
